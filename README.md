@@ -22,7 +22,7 @@ public class Program
 #endif
                 var keyVaultName = config["KeyVault_Name"];
                 secretStoreBuilder.AuthorizedWithin(Role.Writer, builder => 
-                builder.AddAzureKeyVaultWithManagedServiceIdentity($"https://{keyVaultName}.vault.azure.net"));
+                    builder.AddAzureKeyVaultWithManagedServiceIdentity($"https://{keyVaultName}.vault.azure.net"));
                     
                 secretStoreBuilder.AuthorizedWithin(Role.Admin, builder => builder.AddEnvironmentVariables();
             })
