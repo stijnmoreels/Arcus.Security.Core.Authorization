@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arcus.Security.Authorization", "Arcus.Security.Authorization\Arcus.Security.Authorization.csproj", "{6B4B827A-3489-4973-8186-A95D574C2FA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B62E41C1-1DED-4E24-A739-4EA0595ED0AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arcus.Security.Authorization.Tests.Unit", "Arcus.Security.Authorization.Tests.Unit\Arcus.Security.Authorization.Tests.Unit.csproj", "{8798E2EA-7FE3-4277-ABF8-7253986594DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B4B827A-3489-4973-8186-A95D574C2FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4B827A-3489-4973-8186-A95D574C2FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4B827A-3489-4973-8186-A95D574C2FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4B827A-3489-4973-8186-A95D574C2FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8798E2EA-7FE3-4277-ABF8-7253986594DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8798E2EA-7FE3-4277-ABF8-7253986594DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8798E2EA-7FE3-4277-ABF8-7253986594DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8798E2EA-7FE3-4277-ABF8-7253986594DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8798E2EA-7FE3-4277-ABF8-7253986594DB} = {B62E41C1-1DED-4E24-A739-4EA0595ED0AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7180797B-FAA8-4EEF-A129-7064EA960A8F}
+	EndGlobalSection
+EndGlobal
